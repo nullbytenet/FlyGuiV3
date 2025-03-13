@@ -1,0 +1,490 @@
+-- Gui to Lua (Dev Edition)
+-- Version: 3.3.5
+
+-- Instances:
+
+local ScaryGuyV2 = Instance.new("ScreenGui")
+local Small = Instance.new("ImageButton")
+local UICorner = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Text = Instance.new("Folder")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local txt = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local by = Instance.new("TextLabel")
+local Buttons = Instance.new("Folder")
+local Fly = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local Fling = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local InfiniteYield = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local Dex = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Nhub = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local ESP = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local TPTOOL = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local MPlayer = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local ChatSpam = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local InfJump = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local FreeAnims = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local Images = Instance.new("Folder")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner_16 = Instance.new("UICorner")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_17 = Instance.new("UICorner")
+local ImageLabel_3 = Instance.new("ImageLabel")
+local UICorner_18 = Instance.new("UICorner")
+
+--Properties:
+
+ScaryGuyV2.Name = "ScaryGuyV2"
+ScaryGuyV2.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScaryGuyV2.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Small.Name = "Small"
+Small.Parent = ScaryGuyV2
+Small.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Small.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Small.BorderSizePixel = 0
+Small.Position = UDim2.new(0.481962472, 0, 0.0502512567, 0)
+Small.Size = UDim2.new(0, 50, 0, 50)
+Small.Image = "rbxassetid://137066546998545"
+
+UICorner.CornerRadius = UDim.new(0, 4)
+UICorner.Parent = Small
+
+Main.Name = "Main"
+Main.Parent = ScaryGuyV2
+Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.258297265, 0, 0.246231154, 0)
+Main.Size = UDim2.new(0, 626, 0, 412)
+
+UICorner_2.CornerRadius = UDim.new(0, 5)
+UICorner_2.Parent = Main
+
+Text.Name = "Text"
+Text.Parent = Main
+
+TextLabel.Parent = Text
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 0.950
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Size = UDim2.new(0, 626, 0, 26)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "   scary guy v2"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_3.CornerRadius = UDim.new(0, 5)
+UICorner_3.Parent = TextLabel
+
+txt.Name = "txt"
+txt.Parent = Text
+txt.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+txt.BackgroundTransparency = 0.990
+txt.BorderColor3 = Color3.fromRGB(0, 0, 0)
+txt.BorderSizePixel = 0
+txt.Position = UDim2.new(0, 0, 0.121359222, 0)
+txt.Size = UDim2.new(0, 626, 0, 50)
+txt.Font = Enum.Font.Unknown
+txt.Text = "..."
+txt.TextColor3 = Color3.fromRGB(255, 255, 255)
+txt.TextSize = 25.000
+
+UICorner_4.CornerRadius = UDim.new(0, 5)
+UICorner_4.Parent = txt
+
+by.Name = "by"
+by.Parent = Text
+by.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+by.BackgroundTransparency = 1.000
+by.BorderColor3 = Color3.fromRGB(0, 0, 0)
+by.BorderSizePixel = 0
+by.Position = UDim2.new(0.0111821089, 0, 0.934466004, 0)
+by.Size = UDim2.new(0, 206, 0, 21)
+by.Font = Enum.Font.Unknown
+by.Text = "by SmurfTheCheeseMaster"
+by.TextColor3 = Color3.fromRGB(255, 255, 255)
+by.TextSize = 14.000
+
+Buttons.Name = "Buttons"
+Buttons.Parent = Main
+
+Fly.Name = "Fly"
+Fly.Parent = Buttons
+Fly.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fly.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fly.BorderSizePixel = 0
+Fly.Position = UDim2.new(0.0383386575, 0, 0.298543692, 0)
+Fly.Size = UDim2.new(0, 578, 0, 30)
+Fly.Font = Enum.Font.Unknown
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fly.TextSize = 20.000
+Fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nullbytenet/FlyGuiV3/refs/heads/main/FlyGuiV3.txt"))()
+end)
+
+UICorner_5.CornerRadius = UDim.new(0, 5)
+UICorner_5.Parent = Fly
+
+Fling.Name = "Fling"
+Fling.Parent = Buttons
+Fling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Fling.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fling.BorderSizePixel = 0
+Fling.Position = UDim2.new(0.0782747567, 0, 0.405339807, 0)
+Fling.Size = UDim2.new(0, 123, 0, 30)
+Fling.Font = Enum.Font.Unknown
+Fling.Text = "Flinger"
+Fling.TextColor3 = Color3.fromRGB(0, 0, 0)
+Fling.TextSize = 20.000
+Fling.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/nullbytenet/FlyGuiV3/refs/heads/main/fling.txt"))()
+end)
+
+UICorner_6.CornerRadius = UDim.new(0, 5)
+UICorner_6.Parent = Fling
+
+InfiniteYield.Name = "Infinite Yield"
+InfiniteYield.Parent = Buttons
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.293929726, 0, 0.405339807, 0)
+InfiniteYield.Size = UDim2.new(0, 123, 0, 30)
+InfiniteYield.Font = Enum.Font.Unknown
+InfiniteYield.Text = "Infinite Yield"
+InfiniteYield.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.TextSize = 17.000
+InfiniteYield.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+end)
+
+UICorner_7.CornerRadius = UDim.new(0, 5)
+UICorner_7.Parent = InfiniteYield
+
+Dex.Name = "Dex"
+Dex.Parent = Buttons
+Dex.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Dex.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Dex.BorderSizePixel = 0
+Dex.Position = UDim2.new(0.509584665, 0, 0.405339807, 0)
+Dex.Size = UDim2.new(0, 123, 0, 30)
+Dex.Font = Enum.Font.Unknown
+Dex.Text = "Dex"
+Dex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dex.TextSize = 20.000
+Dex.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/memeenjoyer43/darkdex/refs/heads/main/script"))()
+end)
+
+UICorner_8.CornerRadius = UDim.new(0, 5)
+UICorner_8.Parent = Dex
+
+Nhub.Name = "Nhub"
+Nhub.Parent = Buttons
+Nhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Nhub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Nhub.BorderSizePixel = 0
+Nhub.Position = UDim2.new(0.725239635, 0, 0.405339807, 0)
+Nhub.Size = UDim2.new(0, 123, 0, 30)
+Nhub.Font = Enum.Font.Unknown
+Nhub.Text = "NDS Hub"
+Nhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+Nhub.TextSize = 20.000
+Nhub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
+
+UICorner_9.CornerRadius = UDim.new(0, 5)
+UICorner_9.Parent = Nhub
+
+ESP.Name = "ESP"
+ESP.Parent = Buttons
+ESP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ESP.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ESP.BorderSizePixel = 0
+ESP.Position = UDim2.new(0.616613448, 0, 0.516990304, 0)
+ESP.Size = UDim2.new(0, 123, 0, 30)
+ESP.Font = Enum.Font.Unknown
+ESP.Text = "ESP"
+ESP.TextColor3 = Color3.fromRGB(0, 0, 0)
+ESP.TextSize = 20.000
+ESP.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Lucasfin000/SpaceHub/main/UESP'))()
+end)
+
+UICorner_10.CornerRadius = UDim.new(0, 5)
+UICorner_10.Parent = ESP
+
+TPTOOL.Name = "TPTOOL"
+TPTOOL.Parent = Buttons
+TPTOOL.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TPTOOL.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TPTOOL.BorderSizePixel = 0
+TPTOOL.Position = UDim2.new(0.400958478, 0, 0.516990304, 0)
+TPTOOL.Size = UDim2.new(0, 123, 0, 30)
+TPTOOL.Font = Enum.Font.Unknown
+TPTOOL.Text = "TP Tool"
+TPTOOL.TextColor3 = Color3.fromRGB(0, 0, 0)
+TPTOOL.TextSize = 17.000
+TPTOOL.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/retpirato/Roblox-Scripts/refs/heads/master/Click%20TP%20Tool.lua"))()
+end)
+
+UICorner_11.CornerRadius = UDim.new(0, 5)
+UICorner_11.Parent = TPTOOL
+
+MPlayer.Name = "MPlayer"
+MPlayer.Parent = Buttons
+MPlayer.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MPlayer.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MPlayer.BorderSizePixel = 0
+MPlayer.Position = UDim2.new(0.185303509, 0, 0.516990304, 0)
+MPlayer.Size = UDim2.new(0, 123, 0, 30)
+MPlayer.Font = Enum.Font.Unknown
+MPlayer.Text = "Music Player"
+MPlayer.TextColor3 = Color3.fromRGB(0, 0, 0)
+MPlayer.TextSize = 17.000
+MPlayer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Maan04ka/CodingScripts/main/MusicUI.lua"))()
+end)
+
+UICorner_12.CornerRadius = UDim.new(0, 5)
+UICorner_12.Parent = MPlayer
+
+ChatSpam.Name = "ChatSpam"
+ChatSpam.Parent = Buttons
+ChatSpam.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatSpam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpam.BorderSizePixel = 0
+ChatSpam.Position = UDim2.new(0.509584665, 0, 0.628640771, 0)
+ChatSpam.Size = UDim2.new(0, 123, 0, 30)
+ChatSpam.Font = Enum.Font.Unknown
+ChatSpam.Text = "Chat Spam"
+ChatSpam.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpam.TextSize = 20.000
+ChatSpam.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/8Htx56Ab'))()
+end)
+
+UICorner_13.CornerRadius = UDim.new(0, 5)
+UICorner_13.Parent = ChatSpam
+
+InfJump.Name = "Inf Jump"
+InfJump.Parent = Buttons
+InfJump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+InfJump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.BorderSizePixel = 0
+InfJump.Position = UDim2.new(0.293929726, 0, 0.628640771, 0)
+InfJump.Size = UDim2.new(0, 123, 0, 30)
+InfJump.Font = Enum.Font.Unknown
+InfJump.Text = "Inf Jump"
+InfJump.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfJump.TextSize = 17.000
+InfJump.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastefy.app/wpgOobk0/raw"))()
+end)
+
+UICorner_14.CornerRadius = UDim.new(0, 5)
+UICorner_14.Parent = InfJump
+
+FreeAnims.Name = "Free Anims"
+FreeAnims.Parent = Buttons
+FreeAnims.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+FreeAnims.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FreeAnims.BorderSizePixel = 0
+FreeAnims.Position = UDim2.new(0.400958478, 0, 0.735436916, 0)
+FreeAnims.Size = UDim2.new(0, 123, 0, 30)
+FreeAnims.Font = Enum.Font.Unknown
+FreeAnims.Text = "Free Anims"
+FreeAnims.TextColor3 = Color3.fromRGB(0, 0, 0)
+FreeAnims.TextSize = 20.000
+FreeAnims.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Brookhaven-RP-all-emotes-6849"))()
+end)
+
+UICorner_15.CornerRadius = UDim.new(0, 5)
+UICorner_15.Parent = FreeAnims
+
+Images.Name = "Images"
+Images.Parent = Main
+
+ImageLabel.Parent = Images
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.907348216, 0, 0.866536856, 0)
+ImageLabel.Size = UDim2.new(0, 51, 0, 48)
+ImageLabel.Image = "rbxassetid://14916455401"
+
+UICorner_16.CornerRadius = UDim.new(0, 5)
+UICorner_16.Parent = ImageLabel
+
+ImageLabel_2.Parent = Images
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.813099027, 0, 0.866536856, 0)
+ImageLabel_2.Size = UDim2.new(0, 51, 0, 48)
+ImageLabel_2.Image = "rbxassetid://738037847"
+
+UICorner_17.CornerRadius = UDim.new(0, 5)
+UICorner_17.Parent = ImageLabel_2
+
+ImageLabel_3.Parent = Images
+ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_3.BackgroundTransparency = 1.000
+ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel_3.BorderSizePixel = 0
+ImageLabel_3.Position = UDim2.new(0.725239635, 0, 0.866536856, 0)
+ImageLabel_3.Size = UDim2.new(0, 51, 0, 48)
+ImageLabel_3.Image = "rbxassetid://13848106988"
+
+UICorner_18.CornerRadius = UDim.new(0, 5)
+UICorner_18.Parent = ImageLabel_3
+
+-- Scripts:
+
+local function PBLVQ_fake_script() -- Small.DragScript 
+	local script = Instance.new('LocalScript', Small)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(PBLVQ_fake_script)()
+local function KHISL_fake_script() -- Small.Script 
+	local script = Instance.new('Script', Small)
+
+	local frame = script.Parent.Parent.Main
+	local isVisible = true
+	
+	script.Parent.MouseButton1Click:Connect(function()
+	    isVisible = not isVisible
+	    frame.Visible = isVisible
+	end)
+	
+	
+end
+coroutine.wrap(KHISL_fake_script)()
+local function VVCLNH_fake_script() -- Main.DragScript 
+	local script = Instance.new('LocalScript', Main)
+
+	--Not made by me, check out this video: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	--Put this inside of your Frame and configure the speed if you would like.
+	--Enjoy! Credits go to: https://www.youtube.com/watch?v=z25nyNBG7Js&t=22s
+	
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+	
+end
+coroutine.wrap(VVCLNH_fake_script)()
+local function BJGUTAW_fake_script() -- txt.LocalScript 
+	local script = Instance.new('LocalScript', txt)
+
+	local user = game.Players.LocalPlayer.Name
+	local txt = script.Parent
+	
+	txt.Text = "Welcome, "..user
+end
+coroutine.wrap(BJGUTAW_fake_script)()
+local function XMDKRSH_fake_script() -- Fly.Script 
+	local script = Instance.new('Script', Fly)
+
+	local button = script.Parent
+	local hue = 0
+	while true do
+		local color = Color3.fromHSV(hue, 1, 1)
+		button.BackgroundColor3 = color
+		hue = (hue + 0.1) % 1
+		task.wait(0.05)
+	end
+	
+end
+coroutine.wrap(XMDKRSH_fake_script)()
