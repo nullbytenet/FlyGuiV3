@@ -64,6 +64,7 @@ UICorner.CornerRadius = UDim.new(0, 4)
 UICorner.Parent = Small
 
 Main.Name = "Main"
+Main.Visible = false
 Main.Parent = ScaryGuyV2
 Main.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
